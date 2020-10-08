@@ -24,3 +24,9 @@ $ git log
 
 // para descartar cambios en working directory
 $ git checkout -- <filename> 
+
+$ git push
+
+$ git pull
+
+$ git clone
