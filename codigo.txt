@@ -1,0 +1,26 @@
+para inicializar solo abrimos la consola de git 
+_en la carpeta donde vamos a trabajar.
+
+$ git init  // aqui estamos trabajando en el working directory
+
+se crea la carpeta .git, esta carpeta no la vamos a modificar 
+_ni nada.
+
+$ git status    // para ver que archivos estan en el repositorio
+
+// para agreagar los archivos al staging area.
+$ git add <filename> // para que git les de seguimientos a los cambios en el archivo.
+$ git rm --cached <filename> // para dejar de seguir.
+
+// vamos a identificarnos con git
+$ git config --global user.email "correo@gmail.com"
+$ git config --global user.name "user name"
+
+// para crear un punto de comtrol de nuestro codigo
+$ git commit 
+
+//
+$ git log 
+
+// para descartar cambios en working directory
+$ git checkout -- <filename> 
