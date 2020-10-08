@@ -17,13 +17,15 @@ $ git config --global user.email "correo@gmail.com"
 $ git config --global user.name "user name"
 
 // para crear un punto de comtrol de nuestro codigo
-$ git commit 
+$ git commit -a
 
 //
 $ git log 
 
 // para descartar cambios en working directory
 $ git checkout -- <filename> 
+
+$ git diff <filename>
 
 $ git push
 
