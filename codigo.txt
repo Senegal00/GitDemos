@@ -13,8 +13,31 @@ $ git add <filename> // para que git les de seguimientos a los cambios en el arc
 $ git rm --cached <filename> // para dejar de seguir.
 
 // vamos a identificarnos con git
-$ git config --global user.email "correo@gmail.com"
-$ git config --global user.name "user name"
+$ git config --global user.email "senegal00@hotmail.com"
+$ git config --global user.name "Senegal00"
+
+// para porder trabajar con gitpages
+Clone the repository
+Go to the folder where you want to store your project, and clone the new repository:
+
+git clone https://github.com/Senegal00/Portfolio.git
+
+Hello World
+Enter the project folder and add an index.html file:
+
+cd username.github.io
+
+echo "Hello World" > index.html
+
+Push it
+Add, commit, and push your changes:
+
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin main
+
 
 // para crear un punto de comtrol de nuestro codigo
 $ git commit -a
